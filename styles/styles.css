@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: red;
+  --background-color: cyan;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -127,6 +127,7 @@ pre,
 blockquote {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
+  color: magenta;
 }
 
 code,
