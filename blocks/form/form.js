@@ -192,7 +192,7 @@ export async function createForm(formURL) {
 
 export default async function decorate(block) {
   const form = block.querySelector('a[href$=".json"]');
-  addInViewAnimationToSingleElement(block, 'fade-up');
+//  addInViewAnimationToSingleElement(block, 'fade-up');
   if (form) {
     form.replaceWith(await createForm(form.href));
   }
